@@ -1,0 +1,38 @@
+.Single{
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+
+
+
+    .content-blog{
+        flex:5;
+
+        img{
+            width:100%;
+            height: 400px;
+            object-fit: cover;
+            
+
+        }
+        .info-blog{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            
+            span{
+                font-weight: bold;
+
+            };
+        
+
+        }
+        
+        
+        
+         
+    }
+}
